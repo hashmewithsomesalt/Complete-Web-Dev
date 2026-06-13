@@ -1,0 +1,47 @@
+body {
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+.card {
+    border: 1px dotted blue;
+    border-bottom: 5px solid blue;
+    padding: 20px;
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/premium-photo/3d-colorful-abstract-wallpaper_692702-9801.jpg?w=2000");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}   
+
+.photo{
+    width: 200px;
+    height: 250px;
+    padding: 10px;
+}
+
+.utility {
+    border-radius: 20px;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-info {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.photo-container {
+    margin-right: 10px;
+}

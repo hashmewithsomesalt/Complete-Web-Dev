@@ -1,0 +1,198 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(to bottom, violet, darkblue);
+    color: #ffffff;
+    margin: 0;
+    padding: 15px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+h1, h2, h4, h3, p {
+    text-shadow: 0px 0px 4px #000000;
+}
+
+h1 {
+    font-size: clamp(1.8rem, 5vw, 2.5rem);
+}
+
+h2 {
+    font-size: clamp(1.4rem, 4vw, 2rem);
+}
+
+h3 {
+    font-size: clamp(1.1rem, 3.5vw, 1.5rem);
+}
+
+#image {
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+    border: 5px solid rgb(196, 93, 110);
+    border-radius: 50%;
+}
+
+#emoji1 {
+    width: 50px;
+    margin-left: 10px;
+    opacity: 0.8;
+    background-color: transparent;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#age {
+    background-color: rgb(196, 93, 110);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+#message {
+    margin: 0px;
+    background-color: rgb(196, 93, 110);
+    padding: 10px 20px;
+    border-radius: 10px;
+    max-width: 90%;
+}
+
+.gift-img {
+    width: 100%;
+    max-width: 648.6px;
+    height: auto;
+    aspect-ratio: 648.6 / 349.8;
+    background-image: url('https://imgs.search.brave.com/CBkXEOjoU7Ix53I8fXE3_tMhvo_E6l5lfnVIc-YoVk4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzE4LzQ1LzM4LzUz/LzM2MF9GXzE4NDUz/ODUzMjRfWkhCS0dT/eFI3TGhDcXBIamZ5/WVhUeW9YUEw4M0t1/Q2ouanBn');
+    background-size: cover;
+    background-position: center;
+    border: 5px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+.gift-section {
+    margin-top: 40px;
+    padding: 0 10px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 0.95rem;
+}
+
+#gift1:hover {
+    background-image: url('clip1.gif');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    aspect-ratio: 500 / 1000;
+}
+
+#gift2:hover {
+    background-image: url('clip2.gif');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    aspect-ratio: 500 / 1000;
+}
+
+#gift3:hover {
+    background-image: url('clip3.gif');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    aspect-ratio: 500 / 1000;
+}
+
+#gift4:hover {
+    background-image: url('clip4.gif');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    aspect-ratio: 500 / 1000;
+}
+
+#gift5 {
+    height: auto;
+    min-height: 350px;
+    aspect-ratio: auto;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#gift5:hover {
+    background-image: url('clip5.mp4');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    min-height: 280px;
+    aspect-ratio: auto;
+}
+
+.gift-link {
+    display: inline-block;
+    color: white;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    font-weight: bold;
+    background-color: rgba(196, 93, 110, 0.9);
+    padding: 8px 16px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s;
+}
+
+.gift-link:hover {
+    background-color: rgba(196, 93, 110, 1);
+}
+
+pre {
+    font-family: 'Happy Monkey', cursive;
+    white-space: pre-wrap;
+    word-break: break-word;
+    font-size: clamp(0.9rem, 3.2vw, 1.1rem);
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 100%;
+    text-shadow: 0px 0px 4px #000000;
+    text-align: left;
+    display: inline-block;
+}
+
+.footer {
+    margin-top: 40px;
+    color: red;
+    font-weight: bold;
+    font-size: clamp(1.1rem, 4vw, 1.5rem);
+    text-shadow: 0px 0px 4px #000000;
+}

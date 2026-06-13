@@ -1,0 +1,78 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+/* Google Logo */
+img {
+    width: 272px;
+    margin-bottom: 30px;
+}
+
+/* Search Box */
+input[type="text"] {
+    width: 580px;
+    height: 46px;
+    padding: 0 20px;
+    border: 1px solid #dcdcdc;
+    border-radius: 24px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.2s;
+    margin-bottom: 30px;
+}
+
+/* Search Box Hover Effect */
+input[type="text"]:hover,
+input[type="text"]:focus {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+/* Buttons Container */
+.buttons {
+    display: flex;
+    gap: 12px;
+}
+
+/* Buttons */
+button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    padding: 10px 18px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* Button Hover */
+button:hover {
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+/* Responsive */
+@media (max-width: 650px) {
+    input[type="text"] {
+        width: 90%;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,10 @@
+let largeCountries = ["Tuvala", "India", "China", "USA", "Monaco"]
+console.log(largeCountries)
+largeCountries.shift()
+console.log(largeCountries)
+largeCountries.unshift("Australia")
+console.log(largeCountries)
+largeCountries.pop()
+console.log(largeCountries)
+largeCountries.push("Brazil")
+console.log(largeCountries)
