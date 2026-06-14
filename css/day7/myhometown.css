@@ -1,0 +1,126 @@
+body {
+    margin:0;
+    background-color: black;
+}
+#header {
+    width: 100vw;
+    height: 100vh;
+    background: url("kharagpurstation.jpeg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.headers {
+    text-align: center;
+    color: rgb(255, 162, 0);
+}
+#main-header {
+    font-size: 70px;
+}
+
+#tagline {
+    font-size: 40px;
+}
+a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+#nav-ele {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+#nav-bar {
+    background-color: yellow;
+    margin-top: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#description {
+    background-color: pink;
+}
+
+p{
+    text-align: center;
+    align-items: center;
+    font-size: 17.5px;
+}
+
+.div-design {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#history {
+    background-color: red;
+}
+
+#famous {
+    background-color: aqua;
+}
+
+li {
+    margin-bottom: 5px;
+}
+h3 {
+    font-size: 30px;
+}
+
+#food {
+    background-color: violet;
+    height: auto;
+}
+
+#todo {
+    background-color: purple;
+}
+
+#facts {
+    background-color: orange;
+}
+
+.btn {
+    display: block;
+    width: 500px ;
+    padding: 15px 35px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(79, 70, 229, 0.3);
+    margin-top: 6px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(79, 70, 229, 0.4);
+}
+
+.btn:active {
+    transform: scale(0.97);
+}
