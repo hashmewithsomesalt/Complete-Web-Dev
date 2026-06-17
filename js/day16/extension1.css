@@ -16,7 +16,7 @@ input {
     border: 1px solid #5f9341;
 }
 
-button {
+#input-btn {
     margin-top: 5px;
     padding: 10px 20px;
     background-color: #5f9341;
@@ -24,6 +24,17 @@ button {
     font-weight: bolder;
     border: 1px solid #5f9341;
 }
+
+#delete-btn {
+    margin-top: 5px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #5f9341;
+    font-weight: bolder;
+    border: 1px solid #5f9341;
+}
+
+
 
 ul {
     margin-top: 20px;

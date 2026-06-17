@@ -1,5 +1,5 @@
 const inputBtn = document.getElementById("input-btn")
-let myLeads = ["www.google.com"]
+let myLeads = []
 //turn my leads into string
 /* myLeads = JSON.stringify(myLeads)
 console.log(typeof myLeads)
@@ -29,6 +29,10 @@ localStorage.clear()
 localStorage.clear() */
 
 let leadsFromLocalstorage = JSON.parse(localStorage.getItem("myLeads"))
+if (leadsFromLocalstorage) {
+    myLeads = leadsFromLocalstorage
+    renderLeads()
+}
 console.log(leadsFromLocalstorage)
 
 inputBtn.addEventListener("click", function () {
