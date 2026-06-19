@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+}
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.team-img {
+    width: 200px;
+    border-radius: 50%;
+}
