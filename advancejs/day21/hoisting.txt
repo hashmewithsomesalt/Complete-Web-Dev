@@ -1,3 +1,5 @@
 Variable and function declarations are moved to the 
 top of their containing scope during the compilation phase,
 before code execution.
+
+Temporal Dead Zone: 
