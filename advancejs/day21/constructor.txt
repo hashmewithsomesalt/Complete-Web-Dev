@@ -1,0 +1,6 @@
+Two types of Constructor:
+1> Inbuilt : Provides objects in various predetermined formats,
+like Date objects and Error Objects, and Objects for each data type.
+
+2> Custom: Constructors we design ourselves to produce
+objects for our own specific purposes.

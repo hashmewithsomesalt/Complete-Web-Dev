@@ -1,0 +1,4 @@
+BigInt is useful in contexts requiring precise handling
+of large integers, such as cryptography, or when 
+interacting with databases that use large interger
+identifiers.
