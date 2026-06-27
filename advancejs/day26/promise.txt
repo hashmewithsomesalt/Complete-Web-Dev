@@ -1,0 +1,8 @@
+1. What is an API?
+2. Clients and Servers
+3. Requests and Responses
+4. JSON data
+5. The URLs we use to access APIs
+6. Fetching data
+7. Handling errors
+8. Promises'

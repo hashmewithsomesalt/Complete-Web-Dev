@@ -1,0 +1,51 @@
+Prompt Engineering: It is the art or science
+of designing inputs for generative AI tools like
+gpt-4 to produce optimal outputs.
+
+Tokens: Chunk of character of specific length
+according to openai, it's of 4 characters
+=> Token cost credit
+=> Tokens need processing
+=> Keeping tokens low saves time and money
+
+The max_tokens setting:
+=> max_tokens does not allow us to control how concise a text is
+=> If you set max_tokens, be sure to allow enough tokens for a full response
+=> To control text length, good prompt design is essential
+
+
+AI tool for Prototyping: Playground
+
+Temperature: Controls how daring output is
+=> Can be set from 0 to 2
+=> Defaults to 1
+=> Lower temperature = less daring
+=>Higher temperature = more daring
+
+Lower temperature:
+Safer, more predictable
+Good for factual output
+
+Higher temperature:
+More dangerous, less predictable
+Good for creative output
+
+-Zero shot approach
+-Few shot approach
+
+Pros of Few Shot: More control over style of output
+Cons of Few shot: More expensive, Less performant
+
+Reasons a model stops producing:
+- Finished what it wanted to do
+- Ran out of tokens
+- Encountered a stop sequence
+
+The Stop Sequence:
+- An array with upto 4 stop sequence
+- The model stops generating when it 
+tries to produce a stop sequence
+- The outputted text will not include a stop sequence
+
+
+

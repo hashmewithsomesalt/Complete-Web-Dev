@@ -1,0 +1,52 @@
+We will be studying:
+1. How OpenAI models work
+2. Setting up a request 
+3. Tokens
+4. Tools
+5. The "Few Shot" approach
+6. Temperature
+7. The "Stop Sequence"
+8. Frequency and Presence Penalties
+
+
+A large language Model is an algorithm that uses
+training data to recognize patterns and make predictions
+or decisions
+
+Stop:
+
+Presence and Frequency Penalties: Offer some control over how repetitive our output is
+Presence_penalty: Number from -2 to 2
+Defaults to 0 
+Higher numbers increase a models likelihood
+of talking about new topics
+
+Frequency Penalties: Number from -2 to 2
+Defaults to 0
+At higher numbers it decreases the model's 
+likelihood of repeating the exact same phrase
+
+Fine-Tuning: Giving standard, pre-trained models a specific dataset to 
+enhance it's performance.
+
+What are the use-cases? 
+Tone and style: Teach the model how you want to respond
+Format: Such as JSON data
+Function calling: Can be improved by fine-Tuning
+Financial motivations: Reducing few shot prompt-sizes
+Downgrading the model
+
+Fine-tuning is a last resort!
+- work on prompt-design
+- adjust settings e.g. temperature
+- Use few-shot approach
+- Fine-tune
+
+Fine-tuning needs plenty of data!
+- At least 50 items (more is better - within reason)
+- Human-checked
+- JSONL Format
+- OpenAI specify what the data needs to include
+
+
+ 

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Preloader</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 30px;
+        }
+
+        #submit-imgs {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #img-container {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        #img-container img {
+            width: 300px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <div id="upload-container">
+        <h2>Image Preloader</h2>
+        <button id="submit-imgs">Load Images</button>
+    </div>
+
+    <div id="img-container"></div>
+
+    <script src="newpromise1.js"></script>
+
+</body>
+</html>
