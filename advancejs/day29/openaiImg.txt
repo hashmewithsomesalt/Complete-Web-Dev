@@ -1,0 +1,5 @@
+OpenAi Images only last for an hour!
+There models name are: 
+dall-e-3, dall-e-2.
+b64_json : way to get image response permanently. It is coded with can be interpreted 
+by the Browser.

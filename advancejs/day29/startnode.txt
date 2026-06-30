@@ -1,0 +1,54 @@
+Where you find Node.js 
+1. Server-rendered apps
+2. Microservices
+3. Backend services for mobile
+4. Bots and scrapers
+5. Desktop apps
+6. Automation tools
+7. Internet of Things devices
+
+Our Projects:
+The Wild Horizons API
+From the Other side
+
+Requirements:
+A solid foundation in Javascript: map, reduce, filter, async, await
+No frameworks needed
+No knowledge of Node.js or and other backend technology needed
+
+Why it's good to learn Node.js:
+Get to really understand Node.js: Makes learning frameworks easier
+Framework independence: NextJS, Fastify
+Node.js is used in production apps without frameworks
+
+Package.json is the blueprint.
+-> Contains metadata (name, version, author, description, etc.)
+-> Simplifies collaboration: Manage dependencies, Defining start script
+
+To create a server, we need node HTTP module.
+Http module: Allows data to be transferred over the HTTP protocol. Create servers. Handle requests from clients. Provide responses to those requests.
+
+The response object: Has methods which allow us to 
+=> specify content-type
+=> set status codes (200, 400 etc)
+=> provide content (html, JSON, images)
+
+The Request-Response Cycle:
+Client sends HTTP request:
+Request: Method, request, data
+Server receives HTTP request: handle request: filtering data, throwing an error, generate a response
+Replies with an HTTP response: resource (json), content-type(application/json), status code, status message
+Client receives it
+
+The request object gives us access to the incoming request. It contains:
+The URL the client used, The headers, Any data sent, The method (GET, POST, DELETE)
+
+The methods tells us what type of request is asked by client: get, post, delete, put, patch
+
+JSON: When rest api sends data, they commonly uses JSON data
+HTTP is a text-based protocol. All data transferred between the client and the server must be in the form of strings.
+JSON.stringify(<data-to-convert>)
+
+Content-Types: application/json, text/html, text/css, application/javascript 
+
+Path Parameters: 

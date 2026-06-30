@@ -1,0 +1,23 @@
+Four types of AI risks:
+
+                Short term                  Long term
+
+    Misuse  Deepfakes, fake news,          AI-enabled dictatorship
+            prompt injections
+
+    Accidental  Self-driving car crash      Oh boy...
+
+
+    Prompt injection is a new attack technique that enables attackers to 
+    manipulate the output of the LLM models.
+
+    If you build AI agents with access to general tools, you should expect misue through
+    prompt injections.
+
+
+Safety Best Practices:
+-> Use free moderation API
+-> Adversarial testing
+-> prompt Engineering
+-> Know your customer
+-> End-User IDs
