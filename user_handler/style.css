@@ -1,0 +1,100 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body {
+    background: linear-gradient(135deg, #0b1f3a, #163d73);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Logo */
+img {
+    width: 130px;
+    margin-bottom: 35px;
+}
+
+/* Inputs */
+input {
+    width: 320px;
+    padding: 14px;
+    margin: 10px 0;
+    border: 2px solid #dce3ec;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    background: white;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #0b3d91;
+    box-shadow: 0 0 8px rgba(11, 61, 145, 0.3);
+}
+
+/* Buttons */
+button {
+    width: 320px;
+    padding: 14px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Submit Button */
+#log-in-submit {
+    background-color: #0b3d91;
+    color: white;
+}
+
+#log-in-submit:hover {
+    background-color: #072d6b;
+}
+
+/* Login Button */
+#log-in-btn {
+    background-color: white;
+    color: #0b3d91;
+    border: 2px solid #0b3d91;
+}
+
+#log-in-btn:hover {
+    background-color: #0b3d91;
+    color: white;
+}
+
+/* Signup Button */
+#sign-up-btn {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+#sign-up-btn:hover {
+    background: white;
+    color: #0b3d91;
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+    input,
+    button {
+        width: 90%;
+    }
+
+    img {
+        width: 100px;
+    }
+}
